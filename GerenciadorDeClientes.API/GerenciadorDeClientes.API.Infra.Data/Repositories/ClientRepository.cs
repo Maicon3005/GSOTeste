@@ -44,10 +44,5 @@ namespace GerenciadorDeClientes.API.Infra.Data.Repositories
         {
             return await _db.Clients.ToListAsync();
         }
-
-        Task<Collection<Client>> IClientRepository.GetClientAsync()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
