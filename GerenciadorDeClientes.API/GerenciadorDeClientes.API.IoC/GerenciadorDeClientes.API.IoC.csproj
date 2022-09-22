@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GerenciadorDeClientes.API.Application\GerenciadorDeClientes.API.Application.csproj" />
+    <ProjectReference Include="..\GerenciadorDeClientes.API.Domain\GerenciadorDeClientes.API.Domain.csproj" />
+    <ProjectReference Include="..\GerenciadorDeClientes.API.Infra.Data\GerenciadorDeClientes.API.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>
