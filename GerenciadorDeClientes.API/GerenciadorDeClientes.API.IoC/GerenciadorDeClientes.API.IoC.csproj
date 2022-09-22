@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GerenciadorDeClientes.API.Application\GerenciadorDeClientes.API.Application.csproj" />
+    <ProjectReference Include="..\GerenciadorDeClientes.API.Domain\GerenciadorDeClientes.API.Domain.csproj" />
+    <ProjectReference Include="..\GerenciadorDeClientes.API.Infra.Data\GerenciadorDeClientes.API.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>
